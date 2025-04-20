@@ -1,11 +1,11 @@
 <?php
 // API Configuration
-define('API_BASE_URL', 'http://localhost:8000/api');
-define('IMAGE_URL', 'http://127.0.0.1/campus-coach/BACKEND_API/storage/app/');
+define('API_BASE_URL', 'https://backend.campuscoach.in/public/api');
+define('IMAGE_URL', 'https://backend.campuscoach.in/storage/app/');
 
 // Site Configuration
 define('SITE_NAME', 'Trainer Appointment Booking System');
-define('SITE_URL', 'http://localhost/trainer-booking');
+define('SITE_URL', 'https://counsellor.campuscoach.in');
 
 // Debug mode (set to false in production)
 define('DEBUG_MODE', true);

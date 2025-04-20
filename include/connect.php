@@ -1,11 +1,11 @@
 <?php
 
-$host = "82.180.142.204";
-$user = "u954141192_campus_coach";
+$host = "89.117.157.103";
+$user = "u334258298_campus_coach";
 $password = "1@CampusCoach";
-$dbname = "u954141192_campus_coach";
+$dbname = "u334258298_campus_coach";
 $connect = mysqli_connect($host,$user,$password,$dbname);
-$uri = 'http://127.0.0.1/campus-coach/BACKEND_API/storage/app/';
+$uri = 'https://backend.campuscoach.in/storage/app/';
 date_default_timezone_set('Asia/Kolkata');
 $current_time = time();
 function callAPI($method, $urlpoint, $data, $token){
@@ -13,7 +13,7 @@ function callAPI($method, $urlpoint, $data, $token){
         $token = "";
     }
     
-    $url = 'http://127.0.0.1:8000/api/'.$urlpoint.'';
+    $url = 'https://backend.campuscoach.in/public/api/'.$urlpoint.'';
     $curl = curl_init($url);
     switch ($method){
        case "POST":
@@ -57,7 +57,7 @@ function callAPI1($method, $urlpoint, $data, $token){
         $token = "";
     }
     
-    $url = 'http://127.0.0.1:8000/api/'.$urlpoint.'';
+    $url = 'https://backend.campuscoach.in/public/api/'.$urlpoint.'';
     $curl = curl_init($url);
     switch ($method){
        case "POST":
