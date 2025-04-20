@@ -7,7 +7,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
     <div class="position-relative">
         <div class="logo d-md-block d-flex align-items-center justify-content-between plr bottom-line pb-30">
             <a style="text-decoration: none;"  href="index.php">
-                <img src="../assets/img/logo/logo.svg" alt="">
+                <img src="assets/img/logo/logo.svg" alt="">
             </a>
             <button class="close-btn d-block d-md-none"><i class="fa-light fa-circle-xmark"></i></button>
         </div>
@@ -61,7 +61,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
                     </a>
                 </li>
                 <li class="plr">
-                    <a style="text-decoration: none;"  href="#" class="d-flex w-100 align-items-center">
+                    <a style="text-decoration: none;"  href="https://campuscoach.in/mypage.php?trainer_id=<?php echo $_SESSION['trainer_id']; ?>" class="d-flex w-100 align-items-center">
                         <img src="images/icon/icon_8.svg" alt="">
                         <span>My Page</span>
                     </a>

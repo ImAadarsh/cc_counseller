@@ -7,7 +7,7 @@
 						
 						<div class="profile-notification position-relative dropdown-center ms-3 ms-md-5 me-4">
 							<!-- <button class="noti-btn dropdown-toggle" type="button" id="notification-dropdown" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-								<img src="../images/lazy.svg" data-src="images/icon/icon_11.svg" alt="" class="lazy-img">
+								<img src="images/lazy.svg" data-src="images/icon/icon_11.svg" alt="" class="lazy-img">
 								<div class="badge-pill"></div>
 							</button> -->
 						</div>
@@ -22,10 +22,10 @@
 							<div class="user-name-data">
 								<ul class="dropdown-menu" aria-labelledby="profile-dropdown">
 									<li>
-										<a class="dropdown-item d-flex align-items-center" href="profile.php"><img src="../images/lazy.svg" data-src="images/icon/icon_23.svg" alt="" class="lazy-img"><span class="ms-2 ps-1">Profile</span></a>
+										<a class="dropdown-item d-flex align-items-center" href="profile.php"><img src="images/lazy.svg" data-src="images/icon/icon_23.svg" alt="" class="lazy-img"><span class="ms-2 ps-1">Profile</span></a>
 									</li>
 									<li>
-										<a class="dropdown-item d-flex align-items-center" href="profile.php"><img src="../images/lazy.svg" data-src="images/icon/icon_24.svg" alt="" class="lazy-img"><span class="ms-2 ps-1">Account Settings</span></a>
+										<a class="dropdown-item d-flex align-items-center" href="profile.php"><img src="images/lazy.svg" data-src="images/icon/icon_24.svg" alt="" class="lazy-img"><span class="ms-2 ps-1">Account Settings</span></a>
 									</li>
 									
 								</ul>

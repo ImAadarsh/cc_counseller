@@ -113,7 +113,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['update_status'])) {
             $connect->query($approval_sql);
             
             // Update the booking with the new time slot
-            $update_booking_sql = "UPDATE bookings SET time_slot_id = $new_slot_id WHERE id = {$req_data['booking_id']}";
+            $update_booking_sql = "UPDATE bookings SET time_slot_id = $new_slot_id, status = 'confirmed' WHERE id = {$req_data['booking_id']}";
             $connect->query($update_booking_sql);
         }
         
@@ -186,7 +186,7 @@ $bookings_result = $connect->query($bookings_sql);
         <!-- Loading Transition -->
         <!-- <div id="preloader">
             <div id="ctn-preloader" class="ctn-preloader">
-                <div class="icon"><img src="../images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
+                <div class="icon"><img src="images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
             </div>
         </div> -->
 
@@ -347,7 +347,7 @@ $bookings_result = $connect->query($bookings_sql);
                     ?>
                     
                     <?php if ($page < $total_pages): ?>
-                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&status=<?php echo $status_filter; ?>" class="d-flex align-items-center">Next <img src="../images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
+                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&status=<?php echo $status_filter; ?>" class="d-flex align-items-center">Next <img src="images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
                     <?php endif; ?>
                 </ul>
                 <?php endif; ?>

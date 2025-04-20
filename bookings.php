@@ -108,7 +108,7 @@ if (isset($_POST['action'])) {
         <!-- Loading Transition -->
         <div id="preloader">
             <div id="ctn-preloader" class="ctn-preloader">
-                <div class="icon"><img src="../images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
+                <div class="icon"><img src="images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
             </div>
         </div>
 
@@ -255,12 +255,12 @@ if (isset($_POST['action'])) {
                                             <ul class="dropdown-menu dropdown-menu-end">
                                                 <li>
                                                     <a class="dropdown-item" href="view_booking.php?id=<?php echo $row['booking_id']; ?>">
-                                                        <img src="../images/lazy.svg" data-src="images/icon/icon_20.svg" alt="" class="lazy-img"> View Details
+                                                        <img src="images/lazy.svg" data-src="images/icon/icon_20.svg" alt="" class="lazy-img"> View Details
                                                     </a>
                                                 </li>
                                                 <li class="dropdown-submenu">
                                                     <a class="dropdown-item dropdown-toggle" href="#">
-                                                        <img src="../images/lazy.svg" data-src="images/icon/icon_19.svg" alt="" class="lazy-img"> Update Status
+                                                        <img src="images/lazy.svg" data-src="images/icon/icon_19.svg" alt="" class="lazy-img"> Update Status
                                                     </a>
                                                     <ul class="dropdown-menu">
                                                         <li>
@@ -346,7 +346,7 @@ if (isset($_POST['action'])) {
                     ?>
                     
                     <?php if ($page < $total_pages): ?>
-                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&sort=<?php echo $sort_by; ?>&status=<?php echo $status_filter; ?>&date_filter_start=<?php echo $date_filter_start; ?>&date_filter_end=<?php echo $date_filter_end; ?>" class="d-flex align-items-center">Next <img src="../images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
+                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&sort=<?php echo $sort_by; ?>&status=<?php echo $status_filter; ?>&date_filter_start=<?php echo $date_filter_start; ?>&date_filter_end=<?php echo $date_filter_end; ?>" class="d-flex align-items-center">Next <img src="images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
                     <?php endif; ?>
                 </ul>
                 <?php endif; ?>

@@ -13,7 +13,7 @@ require_trainer_login(); // Redirect if not logged in?>
     <meta property="og:url" content="https://creativegigstf.com">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Homy-Real Estate HTML5 Template & Dashboard">
-	<meta name='og:image' content='../images/assets/ogg.png'>
+	<meta name='og:image' content='images/assets/ogg.png'>
 	<!-- For IE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- For Resposive Device -->
@@ -27,7 +27,7 @@ require_trainer_login(); // Redirect if not logged in?>
 	<meta name="apple-mobile-web-app-status-bar-style" content="#0D1A1C">
 	<title>Homy-Real Estate HTML5 Template & Dashboard</title>
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="../images/fav-icon/icon.png">
+	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
 	<!-- Main style sheet -->
@@ -61,7 +61,7 @@ require_trainer_login(); // Redirect if not logged in?>
 		<!-- Loading Transition -->
 		<div id="preloader">
 			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="icon"><img src="../images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
+				<div class="icon"><img src="images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
 			</div>
 		</div>
 

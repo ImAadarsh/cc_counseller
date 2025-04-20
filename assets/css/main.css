@@ -1431,7 +1431,7 @@ span {
   content: "";
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../assets/img/circle.png");
+  background-image: url("../assets/img/circle.png");
   animation: cir36 10s linear infinite;
 }
 .contact-info-area .contact-info-items .content p {
@@ -1498,7 +1498,7 @@ span {
   content: "";
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../../assets/img/circle-3.png");
+  background-image: url("../assets/img/circle-3.png");
   animation: cir36 10s linear infinite;
 }
 .contact-wrapper-2 .contact-left-items .contact-info-area-2 .contact-info-items .content p {
@@ -1984,7 +1984,7 @@ span {
   z-index: -1;
 }
 .cta-video-section .wave {
-  background: url(../../assets/img/video-top-shape.png);
+  background: url(../assets/img/video-top-shape.png);
   position: absolute;
   width: 200%;
   height: 100%;
@@ -2093,7 +2093,7 @@ span {
   z-index: -1;
 }
 .cta-offer-section .wave {
-  background: url(../../assets/img/cta-offer-shape.png);
+  background: url(../assets/img/cta-offer-shape.png);
   position: absolute;
   width: 200%;
   height: 100%;
@@ -2473,7 +2473,7 @@ span {
   overflow-x: hidden;
 }
 .event-section .wave {
-  background: url(../../assets/img/event-top-shape.png);
+  background: url(../assets/img/event-top-shape.png);
   position: absolute;
   width: 200%;
   height: 100%;
@@ -2532,11 +2532,11 @@ span {
 .faq-content .accordion-item .accordion-header .accordion-button::after {
   font-weight: 500;
   transition: all 0.3s ease-in-out !important;
-  background-image: url(../../assets/img/chevron-right.svg);
+  background-image: url(../assets/img/chevron-right.svg);
   color: var(--theme2);
 }
 .faq-content .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
-  background-image: url(../../assets/img/chevron-down.svg);
+  background-image: url(../assets/img/chevron-down.svg);
   font-weight: 500;
   color: var(--theme);
   transform: rotate(0);
@@ -4737,7 +4737,7 @@ span {
   width: 20px;
   height: 20px;
   content: "";
-  background-image: url(../../assets/img/star.svg);
+  background-image: url(../assets/img/star.svg);
 }
 .hero-1 .hero-content h1 {
   margin-bottom: 20px;
@@ -5952,7 +5952,7 @@ span {
   content: "";
   z-index: -1;
   height: 50%;
-  background-image: url(../../assets/img/cta/cta-bg.jpg);
+  background-image: url(../assets/img/cta/cta-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -6711,7 +6711,7 @@ input.main-search-input::placeholder {
   height: 90px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../assets/img/pricing/icon-bg.png);
+  background-image: url(../assets/img/pricing/icon-bg.png);
   z-index: -1;
   transition: all 0.4s ease-in-out;
 }
@@ -7117,7 +7117,7 @@ input.main-search-input::placeholder {
   overflow-x: hidden;
 }
 .clases-section .wave {
-  background: url(../../assets/img/clases-top-shape.png);
+  background: url(../assets/img/clases-top-shape.png);
   position: absolute;
   width: 200%;
   height: 100%;

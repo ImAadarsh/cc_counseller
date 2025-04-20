@@ -141,7 +141,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <!-- Loading Transition -->
         <div id="preloader">
             <div id="ctn-preloader" class="ctn-preloader">
-                <div class="icon"><img src="../images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
+                <div class="icon"><img src="images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
             </div>
         </div>
 

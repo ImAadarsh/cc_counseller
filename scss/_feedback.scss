@@ -46,7 +46,7 @@
 .feedback-section-two {
     background: #0D1A1C;
     .bg-wrapper {
-        background: url(../images/shape/shape_13.svg) no-repeat center;
+        background: url(images/shape/shape_13.svg) no-repeat center;
         background-size: cover;
         padding: 50px 50px;
     }
@@ -100,7 +100,7 @@
 .feedback-section-three {
     background: #0D1A1C;
     .bg-line {
-        background: url(../images/shape/shape_23.svg) no-repeat center;
+        background: url(images/shape/shape_23.svg) no-repeat center;
         background-size: cover;
 
         .shape_01 {
@@ -115,7 +115,7 @@
         }
     }
     .feedback-bg-wrapper {
-        background: url(../images/shape/shape_24.svg) no-repeat center;
+        background: url(images/shape/shape_24.svg) no-repeat center;
         background-size: cover;
         padding: 50px 0 0 68px;
         &:before {
@@ -254,14 +254,14 @@
         top:0;
         bottom: 0;
         right: 0;
-        background: url(../images/media/img_43.jpg) no-repeat center;
+        background: url(images/media/img_43.jpg) no-repeat center;
         background-size: cover;
     }
     .bg-wrapper:after {
         content: '';
         position: absolute;
         z-index: -1;
-        background: url(../images/shape/shape_49.svg) no-repeat center;
+        background: url(images/shape/shape_49.svg) no-repeat center;
         background-size: cover;
         right: -35px;
         bottom: -35px;
@@ -395,7 +395,7 @@
             height: 122px;
             top:0;
             left: 0;
-            background: url(../images/shape/shape_61.svg) no-repeat center top;
+            background: url(images/shape/shape_61.svg) no-repeat center top;
             background-size: cover;
             z-index: -1;
         }

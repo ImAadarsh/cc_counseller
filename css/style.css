@@ -2369,7 +2369,7 @@ iframe {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background: url(../images/shape/shape_79.svg) no-repeat center;
+  background: url(images/shape/shape_79.svg) no-repeat center;
   background-size: cover;
   margin-left: 5px;
   vertical-align: 2px;
@@ -2693,7 +2693,7 @@ iframe {
   right: 0;
   bottom: 0;
   top: 122px;
-  background: url(../images/shape/shape_10.svg) no-repeat center;
+  background: url(images/shape/shape_10.svg) no-repeat center;
   background-size: cover;
   z-index: -1;
 }
@@ -2749,7 +2749,7 @@ iframe {
   height: 100%;
   left: 0px;
   top: 0px;
-  background: url(../images/assets/texture.png) no-repeat center;
+  background: url(images/assets/texture.png) no-repeat center;
   background-size: cover;
   opacity: 0.4;
   z-index: 0;
@@ -2953,7 +2953,7 @@ iframe {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../images/media/img_45.jpg) no-repeat center;
+  background: url(images/media/img_45.jpg) no-repeat center;
   background-size: cover;
 }
 .hero-banner-five .media-wrapper:after {
@@ -2963,13 +2963,13 @@ iframe {
   right: 95px;
   bottom: -65px;
   left: -65px;
-  background: url(../images/shape/shape_53.svg) no-repeat center;
+  background: url(images/shape/shape_53.svg) no-repeat center;
   background-size: cover;
   z-index: -1;
 }
 
 .hero-banner-six {
-  background: url(../images/media/img_47.jpg) no-repeat center top;
+  background: url(images/media/img_47.jpg) no-repeat center top;
   background-size: cover;
 }
 .hero-banner-six:before {
@@ -2979,7 +2979,7 @@ iframe {
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../images/assets/texture_02.png) no-repeat center;
+  background: url(images/assets/texture_02.png) no-repeat center;
   background-size: cover;
   mix-blend-mode: overlay;
   opacity: 0.5;
@@ -3024,7 +3024,7 @@ iframe {
 }
 
 .fancy-banner-one {
-  background: url(../images/media/img_10.jpg) no-repeat center;
+  background: url(images/media/img_10.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3102,7 +3102,7 @@ iframe {
 .fancy-banner-one .property-item .price {
   font-size: 40px;
   letter-spacing: -0.8px;
-  background: url(../images/shape/shape_04.svg) no-repeat center;
+  background: url(images/shape/shape_04.svg) no-repeat center;
   background-size: cover;
   padding: 15px 10px;
 }
@@ -3138,7 +3138,7 @@ iframe {
 }
 
 .fancy-banner-two {
-  background: url(../images/media/img_12.jpg) no-repeat center;
+  background: url(images/media/img_12.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3198,7 +3198,7 @@ iframe {
   background: linear-gradient(180deg, #E2F5FA 0%, #D5F6FF 100%);
 }
 .fancy-banner-four .bg-line {
-  background: url(../images/shape/shape_18.svg) no-repeat center;
+  background: url(images/shape/shape_18.svg) no-repeat center;
   background-size: cover;
 }
 .fancy-banner-four .illustration {
@@ -3214,7 +3214,7 @@ iframe {
 }
 
 .fancy-banner-five {
-  background: url(../images/media/img_25.jpg) no-repeat center;
+  background: url(images/media/img_25.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3354,7 +3354,7 @@ iframe {
   bottom: 0;
   right: -110px;
   width: 110px;
-  background: url(../images/shape/shape_41.svg) no-repeat right center;
+  background: url(images/shape/shape_41.svg) no-repeat right center;
   background-size: cover;
 }
 .fancy-banner-six .country-list .list-block {
@@ -3412,7 +3412,7 @@ iframe {
 }
 
 .fancy-banner-seven .bg-wrapper {
-  background: url(../images/media/img_31.jpg) no-repeat center;
+  background: url(images/media/img_31.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   border-radius: 40px;
@@ -3573,7 +3573,7 @@ iframe {
   height: 100%;
   left: 0px;
   top: 0px;
-  background: url(../images/assets/texture.png) no-repeat center;
+  background: url(images/assets/texture.png) no-repeat center;
   background-size: cover;
   opacity: 0.4;
   z-index: 0;
@@ -3627,7 +3627,7 @@ iframe {
   margin: 0 auto;
 }
 .block-feature-two .block-one {
-  background: url(../images/media/img_04.jpg) no-repeat center;
+  background: url(images/media/img_04.jpg) no-repeat center;
   background-size: cover;
   border-radius: 30px;
   padding: 60px 70px 55px;
@@ -3682,7 +3682,7 @@ iframe {
   color: rgba(0, 0, 0, 0.5);
 }
 .block-feature-two .block-two {
-  background: url(../images/shape/shape_03.svg) no-repeat center;
+  background: url(images/shape/shape_03.svg) no-repeat center;
   background-size: cover;
   padding: 30px;
 }
@@ -3759,7 +3759,7 @@ iframe {
   left: 0;
   right: 60px;
   height: 85%;
-  background: url(../images/shape/shape_06.svg) no-repeat center;
+  background: url(images/shape/shape_06.svg) no-repeat center;
   background-size: cover;
   z-index: -1;
 }
@@ -3876,7 +3876,7 @@ iframe {
   right: 0;
   top: 0;
   z-index: -1;
-  background: url(../images/media/img_37.jpg) no-repeat right center;
+  background: url(images/media/img_37.jpg) no-repeat right center;
   background-size: cover;
 }
 .block-feature-nine .shape_01 {
@@ -3932,7 +3932,7 @@ iframe {
   bottom: 0;
   left: 155px;
   z-index: -1;
-  background: url(../images/shape/shape_16.svg) no-repeat center;
+  background: url(images/shape/shape_16.svg) no-repeat center;
   background-size: cover;
 }
 .block-feature-ten .media-gallery .bg {
@@ -4008,7 +4008,7 @@ iframe {
   bottom: 0;
   left: 155px;
   z-index: -1;
-  background: url(../images/shape/shape_59.svg) no-repeat center;
+  background: url(images/shape/shape_59.svg) no-repeat center;
   background-size: cover;
 }
 .block-feature-thirteen .media-gallery .bg {
@@ -4040,7 +4040,7 @@ iframe {
 }
 .block-feature-fourteen .card-bg-wrapper {
   padding: 15px 50px 55px;
-  background: url(../images/shape/shape_60.svg) no-repeat center;
+  background: url(images/shape/shape_60.svg) no-repeat center;
   background-size: cover;
 }
 
@@ -4169,7 +4169,7 @@ iframe {
 }
 
 .faq-section-two .faq-sidebar {
-  background: url(../images/shape/shape_70.svg) no-repeat center;
+  background: url(images/shape/shape_70.svg) no-repeat center;
   background-size: cover;
   padding: 30px;
 }
@@ -4298,7 +4298,7 @@ iframe {
   border-color: #C11F21;
 }
 .compare-section .compare-table {
-  background: url(../images/shape/shape_68.svg) no-repeat center;
+  background: url(images/shape/shape_68.svg) no-repeat center;
   background-size: cover;
   padding: 30px 35px;
 }
@@ -4351,7 +4351,7 @@ iframe {
 }
 
 .search-wrapper-one.bg {
-  background: url(../images/shape/shape_02.svg) no-repeat center;
+  background: url(images/shape/shape_02.svg) no-repeat center;
   background-size: cover;
   padding: 25px;
 }
@@ -4832,7 +4832,7 @@ iframe {
 }
 
 .advance-search-panel.dot-bg {
-  background: url(../images/shape/shape_64.svg) no-repeat center;
+  background: url(images/shape/shape_64.svg) no-repeat center;
   background-size: cover;
   padding: 30px;
 }
@@ -5200,7 +5200,7 @@ iframe {
 }
 
 .accordion-style-two {
-  background: url(../images/shape/shape_28.svg) no-repeat center;
+  background: url(images/shape/shape_28.svg) no-repeat center;
   background-size: cover;
   padding: 40px 45px;
 }
@@ -5483,7 +5483,7 @@ iframe {
   letter-spacing: -0.5px;
 }
 .card-style-one.arrow:before, .card-style-one.arrow:after {
-  content: url(../images/icon/icon_10.svg);
+  content: url(images/icon/icon_10.svg);
   position: absolute;
   top: 88px;
   left: -90px;
@@ -5540,7 +5540,7 @@ iframe {
 }
 
 .card-style-three {
-  background: url(../images/shape/shape_20.svg) no-repeat center;
+  background: url(images/shape/shape_20.svg) no-repeat center;
   background-size: cover;
   padding: 20px;
 }
@@ -5834,7 +5834,7 @@ iframe {
   width: 100%;
   height: 43%;
   left: 0;
-  background: url(../images/shape/shape_16.svg) no-repeat center;
+  background: url(images/shape/shape_16.svg) no-repeat center;
   background-size: cover;
   z-index: -1;
 }
@@ -6916,7 +6916,7 @@ iframe {
   color: #fff;
 }
 .theme-details-one .property-floor-plan .bg-dot {
-  background: url(../images/shape/shape_66.svg) no-repeat center;
+  background: url(images/shape/shape_66.svg) no-repeat center;
   background-size: cover;
 }
 .theme-details-one .property-floor-plan .carousel-indicators {
@@ -7169,7 +7169,7 @@ iframe {
   letter-spacing: -0.15px;
 }
 .theme-details-one .review-form .bg-dot {
-  background: url(../images/shape/shape_66.svg) no-repeat center;
+  background: url(images/shape/shape_66.svg) no-repeat center;
   background-size: cover;
 }
 .theme-details-one .agent-property-listing .filter-nav-one .isotop-menu-wrapper {
@@ -7189,7 +7189,7 @@ iframe {
 }
 
 .theme-sidebar-one.dot-bg {
-  background: url(../images/shape/shape_65.svg) no-repeat center;
+  background: url(images/shape/shape_65.svg) no-repeat center;
   background-size: cover;
 }
 .theme-sidebar-one .btn-nine {
@@ -7285,7 +7285,7 @@ iframe {
   top: -35px;
   height: 45%;
   z-index: -1;
-  background: url(../images/shape/shape_05.svg) no-repeat center;
+  background: url(images/shape/shape_05.svg) no-repeat center;
   background-size: cover;
 }
 .agent-section-one .section-btn {
@@ -7366,7 +7366,7 @@ iframe {
   color: #C11F21;
 }
 .pricing-section-one .dot-bg-wrapper {
-  background: url(../images/shape/shape_67.svg) no-repeat center;
+  background: url(images/shape/shape_67.svg) no-repeat center;
   background-size: cover;
   padding: 55px;
 }
@@ -7533,7 +7533,7 @@ iframe {
   font-size: 48px;
 }
 .service-details .service-post .feature-wrapper {
-  background: url(../images/shape/shape_77.svg) no-repeat center;
+  background: url(images/shape/shape_77.svg) no-repeat center;
   background-size: cover;
   padding: 20px;
 }
@@ -7543,7 +7543,7 @@ iframe {
   padding: 15px 30px 30px;
 }
 .service-details .service-sidebar .service-category {
-  background: url(../images/shape/shape_78.svg) no-repeat center;
+  background: url(images/shape/shape_78.svg) no-repeat center;
   background-size: cover;
   padding: 36px;
   border-radius: 20px;
@@ -7789,7 +7789,7 @@ iframe {
   margin-bottom: 10px;
 }
 .project-details-one .details-text .project-info-outline {
-  background: url(../images/shape/shape_63.svg) no-repeat center;
+  background: url(images/shape/shape_63.svg) no-repeat center;
   background-size: cover;
   padding: 40px;
 }
@@ -7901,7 +7901,7 @@ iframe {
   background: #0D1A1C;
 }
 .feedback-section-two .bg-wrapper {
-  background: url(../images/shape/shape_13.svg) no-repeat center;
+  background: url(images/shape/shape_13.svg) no-repeat center;
   background-size: cover;
   padding: 50px 50px;
 }
@@ -7954,7 +7954,7 @@ iframe {
   background: #0D1A1C;
 }
 .feedback-section-three .bg-line {
-  background: url(../images/shape/shape_23.svg) no-repeat center;
+  background: url(images/shape/shape_23.svg) no-repeat center;
   background-size: cover;
 }
 .feedback-section-three .bg-line .shape_01 {
@@ -7968,7 +7968,7 @@ iframe {
   max-width: 23%;
 }
 .feedback-section-three .feedback-bg-wrapper {
-  background: url(../images/shape/shape_24.svg) no-repeat center;
+  background: url(images/shape/shape_24.svg) no-repeat center;
   background-size: cover;
   padding: 50px 0 0 68px;
 }
@@ -8106,14 +8106,14 @@ iframe {
   top: 0;
   bottom: 0;
   right: 0;
-  background: url(../images/media/img_43.jpg) no-repeat center;
+  background: url(images/media/img_43.jpg) no-repeat center;
   background-size: cover;
 }
 .feedback-section-five .bg-wrapper:after {
   content: "";
   position: absolute;
   z-index: -1;
-  background: url(../images/shape/shape_49.svg) no-repeat center;
+  background: url(images/shape/shape_49.svg) no-repeat center;
   background-size: cover;
   right: -35px;
   bottom: -35px;
@@ -8235,7 +8235,7 @@ iframe {
   height: 122px;
   top: 0;
   left: 0;
-  background: url(../images/shape/shape_61.svg) no-repeat center top;
+  background: url(images/shape/shape_61.svg) no-repeat center top;
   background-size: cover;
   z-index: -1;
 }
@@ -8544,7 +8544,7 @@ iframe {
 }
 
 .blog-sidebar.dot-bg {
-  background: url(../images/shape/shape_69.svg) no-repeat center;
+  background: url(images/shape/shape_69.svg) no-repeat center;
   background-size: cover;
   padding: 30px;
 }
@@ -8886,7 +8886,7 @@ iframe {
 }
 
 .footer-one .footer-intro {
-  background: url(../images/shape/shape_09.svg) no-repeat center;
+  background: url(images/shape/shape_09.svg) no-repeat center;
   background-size: cover;
   padding: 30px;
 }
@@ -8958,7 +8958,7 @@ iframe {
   left: 61%;
 }
 .footer-one.dark-bg .footer-intro {
-  background: url(../images/shape/shape_31.svg) no-repeat center;
+  background: url(images/shape/shape_31.svg) no-repeat center;
   background-size: cover;
 }
 .footer-one.dark-bg .footer-intro .shape_01 {

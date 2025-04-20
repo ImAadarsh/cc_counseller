@@ -165,7 +165,7 @@ if ($recent_reviews_result->num_rows > 0) {
         <!-- Loading Transition -->
         <div id="preloader">
             <div id="ctn-preloader" class="ctn-preloader">
-                <div class="icon"><img src="../images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
+                <div class="icon"><img src="images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
             </div>
         </div>
 
@@ -189,7 +189,7 @@ if ($recent_reviews_result->num_rows > 0) {
                         <div class="col-lg-3 col-6">
                             <div class="dash-card-one bg-white border-30 position-relative mb-15 skew-none">
                                 <div class="d-sm-flex align-items-center justify-content-between">
-                                    <div class="icon rounded-circle d-flex align-items-center justify-content-center order-sm-1"><img src="../images/lazy.svg" data-src="images/icon/icon_12.svg" alt="" class="lazy-img"></div>
+                                    <div class="icon rounded-circle d-flex align-items-center justify-content-center order-sm-1"><img src="images/lazy.svg" data-src="images/icon/icon_12.svg" alt="" class="lazy-img"></div>
                                     <div class="order-sm-0">
                                         <span>Total Bookings</span>
                                         <div class="value fw-500"><?php echo $total_bookings; ?></div>
@@ -200,7 +200,7 @@ if ($recent_reviews_result->num_rows > 0) {
                         <div class="col-lg-3 col-6">
                             <div class="dash-card-one bg-white border-30 position-relative mb-15">
                                 <div class="d-sm-flex align-items-center justify-content-between">
-                                    <div class="icon rounded-circle d-flex align-items-center justify-content-center order-sm-1"><img src="../images/lazy.svg" data-src="images/icon/icon_13.svg" alt="" class="lazy-img"></div>
+                                    <div class="icon rounded-circle d-flex align-items-center justify-content-center order-sm-1"><img src="images/lazy.svg" data-src="images/icon/icon_13.svg" alt="" class="lazy-img"></div>
                                     <div class="order-sm-0">
                                         <span>Pending Bookings</span>
                                         <div class="value fw-500"><?php echo $pending_bookings; ?></div>
@@ -211,7 +211,7 @@ if ($recent_reviews_result->num_rows > 0) {
                         <div class="col-lg-3 col-6">
                             <div class="dash-card-one bg-white border-30 position-relative mb-15">
                                 <div class="d-sm-flex align-items-center justify-content-between">
-                                    <div class="icon rounded-circle d-flex align-items-center justify-content-center order-sm-1"><img src="../images/lazy.svg" data-src="images/icon/icon_14.svg" alt="" class="lazy-img"></div>
+                                    <div class="icon rounded-circle d-flex align-items-center justify-content-center order-sm-1"><img src="images/lazy.svg" data-src="images/icon/icon_14.svg" alt="" class="lazy-img"></div>
                                     <div class="order-sm-0">
                                         <span>Time Slots</span>
                                         <div class="value fw-500"><?php echo $total_time_slots; ?></div>
@@ -222,7 +222,7 @@ if ($recent_reviews_result->num_rows > 0) {
                         <div class="col-lg-3 col-6">
                             <div class="dash-card-one bg-white border-30 position-relative mb-15">
                                 <div class="d-sm-flex align-items-center justify-content-between">
-                                    <div class="icon rounded-circle d-flex align-items-center justify-content-center order-sm-1"><img src="../images/lazy.svg" data-src="images/icon/icon_15.svg" alt="" class="lazy-img"></div>
+                                    <div class="icon rounded-circle d-flex align-items-center justify-content-center order-sm-1"><img src="images/lazy.svg" data-src="images/icon/icon_15.svg" alt="" class="lazy-img"></div>
                                     <div class="order-sm-0">
                                         <span>Upcoming Sessions</span>
                                         <div class="value fw-500"><?php echo $upcoming_bookings; ?></div>
@@ -360,12 +360,12 @@ if ($recent_reviews_result->num_rows > 0) {
                                                     <ul class="dropdown-menu dropdown-menu-end">
                                                         <li>
                                                             <a class="dropdown-item" href="view_booking.php?id=<?php echo $row['booking_id']; ?>">
-                                                                <img src="../images/lazy.svg" data-src="images/icon/icon_20.svg" alt="" class="lazy-img"> View Details
+                                                                <img src="images/lazy.svg" data-src="images/icon/icon_20.svg" alt="" class="lazy-img"> View Details
                                                             </a>
                                                         </li>
                                                         <li class="dropdown-submenu">
                                                             <a class="dropdown-item dropdown-toggle" href="#">
-                                                                <img src="../images/lazy.svg" data-src="images/icon/icon_19.svg" alt="" class="lazy-img"> Update Status
+                                                                <img src="images/lazy.svg" data-src="images/icon/icon_19.svg" alt="" class="lazy-img"> Update Status
                                                             </a>
                                                             <ul class="dropdown-menu">
                                                                 <li>
@@ -492,7 +492,7 @@ if ($recent_reviews_result->num_rows > 0) {
                     ?>
                     
                     <?php if ($page < $total_pages): ?>
-                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&sort=<?php echo $sort_by; ?>&status=<?php echo $status_filter; ?>&date_filter_start=<?php echo $date_filter_start; ?>&date_filter_end=<?php echo $date_filter_end; ?>" class="d-flex align-items-center">Next <img src="../images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
+                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&sort=<?php echo $sort_by; ?>&status=<?php echo $status_filter; ?>&date_filter_start=<?php echo $date_filter_start; ?>&date_filter_end=<?php echo $date_filter_end; ?>" class="d-flex align-items-center">Next <img src="images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
                     <?php endif; ?>
                 </ul>
                 <?php endif; ?>

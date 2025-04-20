@@ -72,7 +72,7 @@ $results = $connect->query($sql);
         <!-- Loading Transition -->
         <div id="preloader">
             <div id="ctn-preloader" class="ctn-preloader">
-                <div class="icon"><img src="../images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
+                <div class="icon"><img src="images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
             </div>
         </div>
 
@@ -116,7 +116,7 @@ $results = $connect->query($sql);
                                             $review_date = date("d M, Y", strtotime($row['created_at']));
                                             
                                             // Default profile image if none exists
-                                            // $profile_img = $row['profile_img'] ? $row['profile_img'] : '../images/media/img_01.jpg';
+                                            // $profile_img = $row['profile_img'] ? $row['profile_img'] : 'images/media/img_01.jpg';
                                     ?>
                                     <div class="review">
                                         <img src="cc_s.png" alt="" class="rounded-circle avatar">
@@ -187,7 +187,7 @@ $results = $connect->query($sql);
                     ?>
                     
                     <?php if ($page < $total_pages): ?>
-                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&sort=<?php echo $sort_by; ?>" class="d-flex align-items-center">Next <img src="../images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
+                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&sort=<?php echo $sort_by; ?>" class="d-flex align-items-center">Next <img src="images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
                     <?php endif; ?>
                 </ul>
                 <?php endif; ?>

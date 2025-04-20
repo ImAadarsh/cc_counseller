@@ -26,7 +26,7 @@
         right: 0;
         bottom: 0;
         top:122px;
-        background: url(../images/shape/shape_10.svg) no-repeat center;
+        background: url(images/shape/shape_10.svg) no-repeat center;
         background-size: cover;
         z-index: -1;
     }
@@ -86,7 +86,7 @@
         height: 100%;
         left: 0px;
         top: 0px;
-        background: url(../images/assets/texture.png) no-repeat center;
+        background: url(images/assets/texture.png) no-repeat center;
         background-size: cover;
         opacity: 0.4;
         z-index: 0;
@@ -294,7 +294,7 @@
             height: 100%;
             left: 0;
             top:0;
-            background: url(../images/media/img_45.jpg) no-repeat center;
+            background: url(images/media/img_45.jpg) no-repeat center;
             background-size: cover;
         }
         &:after {
@@ -304,7 +304,7 @@
             right: 95px;
             bottom: -65px;
             left: -65px;
-            background: url(../images/shape/shape_53.svg) no-repeat center;
+            background: url(images/shape/shape_53.svg) no-repeat center;
             background-size: cover;
             z-index: -1;
         }
@@ -312,7 +312,7 @@
 }
 // Hero Banner Six
 .hero-banner-six {
-    background: url(../images/media/img_47.jpg) no-repeat center top;
+    background: url(images/media/img_47.jpg) no-repeat center top;
     background-size: cover;
     &:before {
         content: '';
@@ -321,7 +321,7 @@
         height: 100%;
         left: 0;
         top:0;
-        background: url(../images/assets/texture_02.png) no-repeat center;
+        background: url(images/assets/texture_02.png) no-repeat center;
         background-size: cover;
         mix-blend-mode: overlay;
         opacity: 0.5;
@@ -367,7 +367,7 @@
 }
 // Fancy Banner One
 .fancy-banner-one {
-    background: url(../images/media/img_10.jpg) no-repeat center;
+    background: url(images/media/img_10.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     &:before {
@@ -445,7 +445,7 @@
         .price {
             font-size: 40px;
             letter-spacing: -0.8px;
-            background: url(../images/shape/shape_04.svg)  no-repeat center;
+            background: url(images/shape/shape_04.svg)  no-repeat center;
             background-size: cover;
             padding: 15px 10px;
         }
@@ -483,7 +483,7 @@
 }
 // Fancy Banner Two
 .fancy-banner-two {
-    background: url(../images/media/img_12.jpg) no-repeat center;
+    background: url(images/media/img_12.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     &:before {
@@ -544,7 +544,7 @@
 .fancy-banner-four {
     background: linear-gradient(180deg, #E2F5FA 0%, #D5F6FF 100%);
     .bg-line {
-        background: url(../images/shape/shape_18.svg) no-repeat center;
+        background: url(images/shape/shape_18.svg) no-repeat center;
         background-size: cover;
     }
     .illustration {
@@ -561,7 +561,7 @@
 }
 // Fancy Banner Five
 .fancy-banner-five {
-    background: url(../images/media/img_25.jpg) no-repeat center;
+    background: url(images/media/img_25.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     &:before {
@@ -704,7 +704,7 @@
             bottom: 0;
             right: -110px;
             width: 110px;
-            background: url(../images/shape/shape_41.svg) no-repeat right center;
+            background: url(images/shape/shape_41.svg) no-repeat right center;
             background-size: cover;
         }
         .list-block {
@@ -769,7 +769,7 @@
 // Fancy Banner Seven
 .fancy-banner-seven { 
     .bg-wrapper {
-        background: url(../images/media/img_31.jpg) no-repeat center;
+        background: url(images/media/img_31.jpg) no-repeat center;
         background-size: cover;
         background-attachment: fixed;
         border-radius: 40px;
@@ -936,7 +936,7 @@
             height: 100%;
             left: 0px;
             top: 0px;
-            background: url(../images/assets/texture.png) no-repeat center;
+            background: url(images/assets/texture.png) no-repeat center;
             background-size: cover;
             opacity: 0.4;
             z-index: 0;

@@ -12,7 +12,7 @@ include "include/meta.php" ?>
 		<!-- Loading Transition -->
 		<div id="preloader">
 			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="icon"><img src="../images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
+				<div class="icon"><img src="images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
 			</div>
 		</div>
 
@@ -33,7 +33,7 @@ include "include/meta.php" ?>
 					<div class="bg-white card-box border-20">
 						<h4 class="dash-title-three">Profile Information</h4>
 						<div class="user-avatar-setting d-flex align-items-center mb-30">
-							<img src="<?php echo IMAGE_URL; echo isset($_SESSION['trainer_profile_img']) ? $_SESSION['trainer_profile_img'] : '../images/loader.gif'; ?>" alt="Trainer Profile" class="lazy-img user-img">
+							<img src="<?php echo IMAGE_URL; echo isset($_SESSION['trainer_profile_img']) ? $_SESSION['trainer_profile_img'] : 'images/loader.gif'; ?>" alt="Trainer Profile" class="lazy-img user-img">
 							<div class="upload-btn position-relative tran3s ms-4 me-3">
 								Upload profile photo
 								<input type="file" id="profile_img" name="profile_img">
@@ -99,7 +99,7 @@ include "include/meta.php" ?>
 					<div class="bg-white card-box border-20 mt-40">
 						<h4 class="dash-title-three">Hero Image</h4>
 						<div class="user-avatar-setting d-flex align-items-center mb-30">
-							<img src="<?php echo IMAGE_URL; echo isset($_SESSION['trainer_hero_img']) ? $_SESSION['trainer_hero_img'] : '../images/hero_default.jpg'; ?>" alt="Hero Image" class="lazy-img user-img">
+							<img src="<?php echo IMAGE_URL; echo isset($_SESSION['trainer_hero_img']) ? $_SESSION['trainer_hero_img'] : 'images/hero_default.jpg'; ?>" alt="Hero Image" class="lazy-img user-img">
 							<div class="upload-btn position-relative tran3s ms-4 me-3">
 								Upload hero image
 								<input type="file" id="hero_img" name="hero_img">

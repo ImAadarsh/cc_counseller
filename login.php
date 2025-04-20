@@ -278,7 +278,7 @@ img {
         <!-- Loading Transition -->
         <div id="preloader">
             <div id="ctn-preloader" class="ctn-preloader">
-                <div class="icon"><img src="../images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
+                <div class="icon"><img src="images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
             </div>
         </div>
 
@@ -288,7 +288,7 @@ img {
                 <div class="col-md-12">
                     <div class="bg-white card-box border-20 p-4">
                         <div class="text-center mb-4">
-                            <img src="../assets/img/logo/logo.svg" alt="Logo" class="mb-3" style="max-width: 150px;">
+                            <img src="assets/img/logo/logo.svg" alt="Logo" class="mb-3" style="max-width: 150px;">
                             <h2>Counseller Login</h2>
                             <p class="text-muted">Enter your credentials to access your account</p>
                         </div>

@@ -414,7 +414,7 @@ tr.table-success:hover {
         <!-- Loading Transition -->
         <div id="preloader">
             <div id="ctn-preloader" class="ctn-preloader">
-                <div class="icon"><img src="../images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
+                <div class="icon"><img src="images/loader.gif" alt="" class="m-auto d-block" width="250"></div>
             </div>
         </div>
 
@@ -537,7 +537,7 @@ tr.table-success:hover {
                                             <ul class="dropdown-menu dropdown-menu-end">
                                                 <li>
                                                     <a class="dropdown-item" href="edit_time_slot.php?id=<?php echo $row['slot_id']; ?>">
-                                                        <img src="../images/lazy.svg" data-src="images/icon/icon_20.svg" alt="" class="lazy-img"> Edit
+                                                        <img src="images/lazy.svg" data-src="images/icon/icon_20.svg" alt="" class="lazy-img"> Edit
                                                     </a>
                                                 </li>
                                                 <li>
@@ -545,13 +545,13 @@ tr.table-success:hover {
                                                         <input type="hidden" name="action" value="delete">
                                                         <input type="hidden" name="slot_id" value="<?php echo $row['slot_id']; ?>">
                                                         <button type="submit" class="dropdown-item" onclick="return confirm('Are you sure you want to delete this time slot?')">
-                                                            <img src="../images/lazy.svg" data-src="images/icon/icon_21.svg" alt="" class="lazy-img"> Delete
+                                                            <img src="images/lazy.svg" data-src="images/icon/icon_21.svg" alt="" class="lazy-img"> Delete
                                                         </button>
                                                     </form>
                                                 </li>
                                                 <li class="dropdown-submenu">
                                                     <a class="dropdown-item dropdown-toggle" href="#">
-                                                        <img src="../images/lazy.svg" data-src="images/icon/icon_19.svg" alt="" class="lazy-img"> Status
+                                                        <img src="images/lazy.svg" data-src="images/icon/icon_19.svg" alt="" class="lazy-img"> Status
                                                     </a>
                                                     <ul class="dropdown-menu">
                                                         <li>
@@ -630,7 +630,7 @@ tr.table-success:hover {
                     ?>
                     
                     <?php if ($page < $total_pages): ?>
-                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&sort=<?php echo $sort_by; ?>&date_filter=<?php echo $date_filter; ?>" class="d-flex align-items-center">Next <img src="../images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
+                    <li class="ms-2"><a href="?page=<?php echo $page+1; ?>&sort=<?php echo $sort_by; ?>&date_filter=<?php echo $date_filter; ?>" class="d-flex align-items-center">Next <img src="images/icon/icon_46.svg" alt="" class="ms-2"></a></li>
                     <?php endif; ?>
                 </ul>
                 <?php endif; ?>
@@ -644,7 +644,7 @@ tr.table-success:hover {
                 <div class="container">
                     <div class="remove-account-popup text-center modal-content">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <img src="../images/lazy.svg" data-src="images/icon/icon_22.svg" alt="" class="lazy-img m-auto">
+                        <img src="images/lazy.svg" data-src="images/icon/icon_22.svg" alt="" class="lazy-img m-auto">
                         <h2>Are you sure?</h2>
                         <p>Are you sure you want to delete this time slot?</p>
                         <div class="button-group d-inline-flex justify-content-center align-items-center pt-15">
