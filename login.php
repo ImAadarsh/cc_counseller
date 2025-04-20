@@ -288,8 +288,8 @@ img {
                 <div class="col-md-12">
                     <div class="bg-white card-box border-20 p-4">
                         <div class="text-center mb-4">
-                            <img src="assets/img/logo/logo.svg" alt="Logo" class="mb-3" style="max-width: 150px;">
-                            <h2>Counseller Login</h2>
+                          <center> <img width="350px" src="assets/img/logo/logo.svg" alt="Logo" class="mb-3" style="max-width: 350px;"></center>
+                            <h2>Counsellor Login</h2>
                             <p class="text-muted">Enter your credentials to access your account</p>
                         </div>
                         
@@ -315,7 +315,6 @@ img {
                                     <input class="form-check-input" type="checkbox" id="remember" name="remember">
                                     <label class="form-check-label" for="remember">Remember me</label>
                                 </div>
-                                <a href="forgot_password.php" class="text-decoration-none">Forgot password?</a>
                             </div>
                             
                             <div class="d-grid">

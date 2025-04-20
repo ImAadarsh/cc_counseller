@@ -1,11 +1,11 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="keywords" content="Campus Coach, Students,IPN Acdemy, IPN Forum, Endeavour Digital">
-	<meta name="description" content="Campus Coach | Counseller Dashboard">
-    <meta property="og:site_name" content="Campus Coach | Counseller Dashboard">
-    <meta property="og:url" content="https://counseller.campuscoach.in">
+	<meta name="description" content="Campus Coach | Counsellor Dashboard">
+    <meta property="og:site_name" content="Campus Coach | Counsellor Dashboard">
+    <meta property="og:url" content="https://Counsellor.campuscoach.in">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Campus Coach | Counseller Dashboard">
+    <meta property="og:title" content="Campus Coach | Counsellor Dashboard">
 	<meta name='og:image' content='cc_s.png'>
 	<!-- For IE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
 	<meta name="msapplication-navbutton-color" content="#0D1A1C">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#0D1A1C">
-	<title>Campus Coach | Counseller Dashboard</title>
+	<title>Campus Coach | Counsellor Dashboard</title>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="1000x1000" href="cc_s.png">
 	<!-- Bootstrap CSS -->
