@@ -410,11 +410,11 @@ $bookings_result = $connect->query($bookings_sql);
                                                 </div>
                                             </div>
                                             <!-- jQuery first -->
-                                            <script src="../vendor/jquery.min.js"></script>
+                                            <script src="vendor/jquery.min.js"></script>
                                             <!-- Then Bootstrap JS -->
-                                            <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+                                            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
                                             <!-- Then jQuery Nice Select -->
-                                            <script src="../vendor/nice-select/jquery.nice-select.min.js"></script>
+                                            <script src="vendor/nice-select/jquery.nice-select.min.js"></script>
 
                                             <!-- Your custom script last -->
                                             <script>

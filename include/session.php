@@ -22,7 +22,7 @@ if (isset($_SESSION['last_activity'])) {
         session_destroy();
         
         // Redirect to login page with timeout message
-        header("Location: ../login.php?timeout=1");
+        header("Location: login.php?timeout=1");
         exit;
     }
 }
@@ -44,7 +44,7 @@ function is_trainer_logged_in() {
  */
 function require_trainer_login() {
     if (!is_trainer_logged_in()) {
-        header("Location: ../login.php");
+        header("Location: login.php");
         exit;
     }
 }

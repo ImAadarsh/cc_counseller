@@ -559,24 +559,24 @@
 
 		<!-- jQuery first, then Bootstrap JS -->
 		<!-- jQuery -->
-		<script src="../vendor/jquery.min.js"></script>
+		<script src="vendor/jquery.min.js"></script>
 		<!-- Bootstrap JS -->
-		<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<!-- WOW js -->
-		<script src="../vendor/wow/wow.min.js"></script>
+		<script src="vendor/wow/wow.min.js"></script>
 		<!-- Slick Slider -->
-		<script src="../vendor/slick/slick.min.js"></script>
+		<script src="vendor/slick/slick.min.js"></script>
 		<!-- Fancybox -->
-		<script src="../vendor/fancybox/fancybox.umd.js"></script>
+		<script src="vendor/fancybox/fancybox.umd.js"></script>
 		<!-- Lazy -->
-		<script src="../vendor/jquery.lazy.min.js"></script>
+		<script src="vendor/jquery.lazy.min.js"></script>
 		<!-- js Counter -->
-		<script src="../vendor/jquery.counterup.min.js"></script>
-		<script src="../vendor/jquery.waypoints.min.js"></script>
+		<script src="vendor/jquery.counterup.min.js"></script>
+		<script src="vendor/jquery.waypoints.min.js"></script>
 		<!-- Nice Select -->
-		<script src="../vendor/nice-select/jquery.nice-select.min.js"></script>
+		<script src="vendor/nice-select/jquery.nice-select.min.js"></script>
 		<!-- validator js -->
-		<script src="../vendor/validator.js"></script>
+		<script src="vendor/validator.js"></script>
 
 		<!-- Theme js -->
 		<script src="../js/theme.js"></script>

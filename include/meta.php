@@ -3,7 +3,7 @@
 	<meta name="keywords" content="Campus Coach, Students,IPN Acdemy, IPN Forum, Endeavour Digital">
 	<meta name="description" content="Campus Coach | Counseller Dashboard">
     <meta property="og:site_name" content="Campus Coach | Counseller Dashboard">
-    <meta property="og:url" content="https://Counseller.campuscoach.in">
+    <meta property="og:url" content="https://counseller.campuscoach.in">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Campus Coach | Counseller Dashboard">
 	<meta name='og:image' content='cc_s.png'>
@@ -22,11 +22,11 @@
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="1000x1000" href="cc_s.png">
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
 	<!-- Main style sheet -->
-	<link rel="stylesheet" type="text/css" href="../css/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 	<!-- responsive style sheet -->
-	<link rel="stylesheet" type="text/css" href="../css/responsive.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
 
 	<!-- Fix Internet Explorer ______________________________________-->
 	<!--[if lt IE 9]>

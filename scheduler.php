@@ -29,11 +29,11 @@ require_trainer_login(); // Redirect if not logged in?>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" sizes="56x56" href="../images/fav-icon/icon.png">
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
 	<!-- Main style sheet -->
-	<link rel="stylesheet" type="text/css" href="../css/style.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all">
 	<!-- responsive style sheet -->
-	<link rel="stylesheet" type="text/css" href="../css/responsive.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_blue.css">
@@ -359,23 +359,23 @@ require_trainer_login(); // Redirect if not logged in?>
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Bootstrap JS -->
-		<script src="../vendor/jquery.min.js"></script>
-		<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="vendor/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 		<!-- WOW js -->
-		<script src="../vendor/wow/wow.min.js"></script>
+		<script src="vendor/wow/wow.min.js"></script>
 		<!-- Slick Slider -->
-		<script src="../vendor/slick/slick.min.js"></script>
+		<script src="vendor/slick/slick.min.js"></script>
 		<!-- Fancybox -->
-		<script src="../vendor/fancybox/fancybox.umd.js"></script>
+		<script src="vendor/fancybox/fancybox.umd.js"></script>
 		<!-- Lazy -->
-		<script src="../vendor/jquery.lazy.min.js"></script>
+		<script src="vendor/jquery.lazy.min.js"></script>
 		<!-- js Counter -->
-		<script src="../vendor/jquery.counterup.min.js"></script>
-		<script src="../vendor/jquery.waypoints.min.js"></script>
+		<script src="vendor/jquery.counterup.min.js"></script>
+		<script src="vendor/jquery.waypoints.min.js"></script>
 		<!-- Nice Select -->
-		<script src="../vendor/nice-select/jquery.nice-select.min.js"></script>
+		<script src="vendor/nice-select/jquery.nice-select.min.js"></script>
 		<!-- validator js -->
-		<script src="../vendor/validator.js"></script>
+		<script src="vendor/validator.js"></script>
 
 		<!-- Theme js -->
 		<script src="../js/theme.js"></script>
