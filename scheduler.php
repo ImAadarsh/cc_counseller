@@ -7,12 +7,12 @@ require_once 'include/config.php';
 require_trainer_login(); // Redirect if not logged in?>
 <head>
 	<meta charset="UTF-8">
-	<meta name="keywords" content="Real estate, Property sale, Property buy">
-	<meta name="description" content="Homy is a beautiful website template designed for Real Estate Agency.">
-    <meta property="og:site_name" content="Homy">
-    <meta property="og:url" content="https://creativegigstf.com">
+	<meta name="keywords" content="Campus Coach, Students,IPN Acdemy, IPN Forum, Endeavour Digital">
+	<meta name="description" content="Campus Coach | Counsellor Dashboard">
+    <meta property="og:site_name" content="Campus Coach | Counsellor Dashboard">
+    <meta property="og:url" content="https://counsellor.campuscoach.in">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Homy-Real Estate HTML5 Template & Dashboard">
+    <meta property="og:title" content="Campus Coach | Counsellor Dashboard">
 	<meta name='og:image' content='images/assets/ogg.png'>
 	<!-- For IE -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,9 +25,9 @@ require_trainer_login(); // Redirect if not logged in?>
 	<meta name="msapplication-navbutton-color" content="#0D1A1C">
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#0D1A1C">
-	<title>Homy-Real Estate HTML5 Template & Dashboard</title>
+	<title>Campus Coach | Counsellor Dashboard</title>
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
+	<link rel="icon" type="image/png" sizes="56x56" href="cc_s.png">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
 	<!-- Main style sheet -->

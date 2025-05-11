@@ -1,0 +1,29 @@
+<b>Professional Summary</b>c
+With a robust foundation in backend development, cloud computing, and DevOps, I bring extensive experience in delivering high-quality software solutions and crafting mobile and web applications tailored to user needs. My expertise extends to guiding individuals and teams in navigating the complexities of modern software engineering, cloud adoption, and secure application deployment.<br/><br/>
+
+<b>Academic Credentials</b><br/>
+- Pursuing Master of Technology in Computer Science at NIT Jalandhar, specializing in cloud computing and security.<br/>
+- Graduated with a strong academic record (CGPA: 8.42) from Indira Gandhi Engineering College, Sagar.<br/>
+- Achieved a GATE score of 468 in Computer Science.<br/><br/>
+
+<b>Research & Innovation</b><br/>
+- Co-authored research papers on "Application Deployment Flexibility" and "Enhancing Security in Software Applications."<br/>
+- Holder of multiple patents in software development, including innovations in memory reorganisation.<br/><br/>
+
+<b>Industry Experience</b><br/>
+- Co-founder of Strix Digital, where I led development and operations, collaborating with over 40 clients to help scale their businesses.<br/>
+- Led the development of a User Engagement Platform at Quink Post, leveraging Node.js and advanced technologies.<br/>
+- Currently serving as an Engineer at Nvidia, contributing to cutting-edge technology projects.<br/><br/>
+
+<b>Counselling Approach</b><br/>
+As a counsellor, I am passionate about helping students and professionals solve complex technical challenges, make informed career decisions, and stay updated with the latest industry trends. I offer guidance on:<br/>
+- Career planning in software development, cloud computing, and DevOps.<br/>
+- Best practices for secure and scalable application development.<br/>
+- Research opportunities and academic growth in computer science.<br/>
+- Navigating entrepreneurship and leadership in tech startups.<br/><br/>
+
+<b>Core Values</b><br/>
+I value collaboration, continuous learning, and innovation. My goal is to empower others to achieve excellence and contribute meaningfully to technology and society.<br/><br/>
+
+<b>Let’s connect to explore your aspirations and chart a path to success in the ever-evolving world of technology.</b>
+

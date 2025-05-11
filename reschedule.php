@@ -2,6 +2,7 @@
 include "include/session.php";
 include "include/config.php";
 include "include/connect.php";
+require_once("../email_templates/email_functions.php");
 
 // Require login to access this page
 require_trainer_login();
@@ -38,7 +39,75 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['create_request'])) {
                    '$requested_date', '$requested_start_time', '$requested_end_time',
                    '$reason', 'pending', 'trainer', NOW(), NOW())";
     
+    # also make the time slot status as pending_reschedule
+    $update_slot_sql = "UPDATE bookings SET status = 'pending_reschedule' WHERE id = $booking_id";
+    $connect->query($update_slot_sql);
+    
     if ($connect->query($insert_sql)) {
+        // Get request details for email
+        $req_sql = "SELECT rr.*, 
+                   u.first_name as user_first_name, u.last_name as user_last_name, u.email as user_email,
+                   t.first_name as trainer_first_name, t.last_name as trainer_last_name, t.email as trainer_email,
+                   ts.start_time as original_start_time, ts.end_time as original_end_time,
+                   ta.date as original_date
+                   FROM reschedule_requests rr
+                   JOIN users u ON rr.user_id = u.id
+                   JOIN trainers t ON rr.trainer_id = t.id
+                   JOIN time_slots ts ON rr.original_time_slot_id = ts.id
+                   JOIN trainer_availabilities ta ON ts.trainer_availability_id = ta.id
+                   WHERE rr.id = " . $connect->insert_id;
+        $req_result = $connect->query($req_sql);
+        $req_data = $req_result->fetch_assoc();
+
+        // Prepare email data for user
+        $user_email_data = [
+            'name' => $req_data['user_first_name'] . ' ' . $req_data['user_last_name'],
+            'counselor_name' => $req_data['trainer_first_name'] . ' ' . $req_data['trainer_last_name'],
+            'original_session' => [
+                'date' => date('F j, Y', strtotime($req_data['original_date'])),
+                'time' => date('g:i A', strtotime($req_data['original_start_time'])) . ' - ' . date('g:i A', strtotime($req_data['original_end_time']))
+            ],
+            'requested_session' => [
+                'date' => date('F j, Y', strtotime($req_data['requested_date'])),
+                'time' => date('g:i A', strtotime($req_data['requested_start_time'])) . ' - ' . date('g:i A', strtotime($req_data['requested_end_time']))
+            ],
+            'reason' => $req_data['reason'],
+            'booking_id' => $req_data['booking_id']
+        ];
+
+        // Prepare email data for admin
+        $admin_email_data = [
+            'name' => 'Admin',
+            'student_name' => $req_data['user_first_name'] . ' ' . $req_data['user_last_name'],
+            'counselor_name' => $req_data['trainer_first_name'] . ' ' . $req_data['trainer_last_name'],
+            'original_session' => [
+                'date' => date('F j, Y', strtotime($req_data['original_date'])),
+                'time' => date('g:i A', strtotime($req_data['original_start_time'])) . ' - ' . date('g:i A', strtotime($req_data['original_end_time']))
+            ],
+            'requested_session' => [
+                'date' => date('F j, Y', strtotime($req_data['requested_date'])),
+                'time' => date('g:i A', strtotime($req_data['requested_start_time'])) . ' - ' . date('g:i A', strtotime($req_data['requested_end_time']))
+            ],
+            'reason' => $req_data['reason'],
+            'booking_id' => $req_data['booking_id']
+        ];
+
+        // Send email to user
+        send_email(
+            $req_data['user_email'],
+            'New Reschedule Request - Campus Coach',
+            'reschedule_request',
+            $user_email_data
+        );
+
+        // Send email to admin
+        send_email(
+            'cc@eduace.in', // Replace with actual admin email
+            'New Reschedule Request - Campus Coach',
+            'reschedule_notification',
+            $admin_email_data
+        );
+
         $success_message = "Reschedule request created successfully.";
     } else {
         $error_message = "Error creating reschedule request: " . $connect->error;
@@ -53,6 +122,79 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['update_status'])) {
     $update_sql = "UPDATE reschedule_requests SET status = '$status', updated_at = NOW() WHERE id = $request_id";
     
     if ($connect->query($update_sql)) {
+        // Get request details for email
+        $req_sql = "SELECT rr.*, 
+                   u.first_name as user_first_name, u.last_name as user_last_name, u.email as user_email,
+                   t.first_name as trainer_first_name, t.last_name as trainer_last_name, t.email as trainer_email,
+                   ts_original.start_time as original_start_time, ts_original.end_time as original_end_time,
+                   ta_original.date as original_date
+                   FROM reschedule_requests rr
+                   JOIN users u ON rr.user_id = u.id
+                   JOIN trainers t ON rr.trainer_id = t.id
+                   JOIN time_slots ts_original ON rr.original_time_slot_id = ts_original.id
+                   JOIN trainer_availabilities ta_original ON ts_original.trainer_availability_id = ta_original.id
+                   WHERE rr.id = $request_id";
+        $req_result = $connect->query($req_sql);
+        $req_data = $req_result->fetch_assoc();
+
+        // Prepare email data for user
+        $user_email_data = [
+            'name' => $req_data['user_first_name'] . ' ' . $req_data['user_last_name'],
+            'counselor_name' => $req_data['trainer_first_name'] . ' ' . $req_data['trainer_last_name'],
+            'original_session' => [
+                'date' => date('F j, Y', strtotime($req_data['original_date'])),
+                'time' => date('g:i A', strtotime($req_data['original_start_time'])) . ' - ' . date('g:i A', strtotime($req_data['original_end_time']))
+            ],
+            'requested_session' => [
+                'date' => date('F j, Y', strtotime($req_data['requested_date'])),
+                'time' => date('g:i A', strtotime($req_data['requested_start_time'])) . ' - ' . date('g:i A', strtotime($req_data['requested_end_time']))
+            ],
+            'status' => $status,
+            'booking_id' => $req_data['booking_id']
+        ];
+
+            // echo "<pre>";
+            // print_r($user_email_data);
+            // echo "</pre>";
+      
+
+        // Prepare email data for admin
+        $admin_email_data = [
+            'name' => 'Admin',
+            'student_name' => $req_data['user_first_name'] . ' ' . $req_data['user_last_name'],
+            'counselor_name' => $req_data['trainer_first_name'] . ' ' . $req_data['trainer_last_name'],
+            'original_session' => [
+                'date' => date('F j, Y', strtotime($req_data['original_date'])),
+                'time' => date('g:i A', strtotime($req_data['original_start_time'])) . ' - ' . date('g:i A', strtotime($req_data['original_end_time']))
+            ],
+            'requested_session' => [
+                'date' => date('F j, Y', strtotime($req_data['requested_date'])),
+                'time' => date('g:i A', strtotime($req_data['requested_start_time'])) . ' - ' . date('g:i A', strtotime($req_data['requested_end_time']))
+            ],
+            'status' => $status,
+            'booking_id' => $req_data['booking_id']
+        ];
+        // echo "<pre>";
+        // print_r($admin_email_data);
+        // echo "</pre>";
+  
+
+        // Send email to user
+        send_email(
+            $req_data['user_email'],
+            'Reschedule Request ' . ucfirst($status) . ' - Campus Coach',
+            'reschedule_approval',
+            $user_email_data
+        );
+
+        // Send email to admin
+        send_email(
+            'cc@eduace.in', // Replace with actual admin email
+            'Reschedule Request ' . ucfirst($status) . ' - Campus Coach',
+            'reschedule_approval',
+            $admin_email_data
+        );
+
         // If approved, create an approval record
         if ($status == 'approved') {
             // Get the request details
